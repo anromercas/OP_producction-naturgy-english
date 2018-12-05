@@ -58,7 +58,7 @@ mongoose.connection.openUri('mongodb://localhost:27017/en_bd', (err, res) => {
 
 
 // Rutas
-app.use(express.static(path.join(__dirname, 'adminpro')));
+//app.use(express.static(path.join(__dirname, 'adminpro')));
 app.use('/usuario', usuarioRoutes);
 app.use('/sdr', sdrRoutes);
 app.use('/ideal', idealRoutes);

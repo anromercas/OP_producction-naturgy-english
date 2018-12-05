@@ -2,12 +2,13 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-
+var http = require('http');
 var path = require('path');
 
 
 // Inicializar variables
 var app = express();
+
 
 // Body Parser
 // parse application/x-www-form-urlencoded
@@ -68,6 +69,7 @@ app.use('/', appRoutes);
 
 
 // Escuchar peticiones
-app.listen(3000, () => {
+http.createServer(app)
+.listen(3000, () => {
     console.log('Express server puerto 3000: \x1b[32m%s\x1b[0m', 'online');
 });

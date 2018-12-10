@@ -75,7 +75,7 @@ app.use('/', appRoutes);
 
 
 // Escuchar peticiones
-https.createServer(options, app)
-.listen(3000, () => {
+// https.createServer(options, app)
+app.listen(3000, () => {
     console.log('Express server puerto 3000: \x1b[32m%s\x1b[0m', 'online');
 });

@@ -7,8 +7,8 @@ var fs = require('fs');
 var path = require('path');
 
 var options = {
-    key: fs.readFileSync('/etc/letsencrypt/live/preventive-observations.tk/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/preventive-observations.tk/fullchain.pem')
+    key: fs.readFileSync('privkey.pem'),
+    cert: fs.readFileSync('fullchain.pem')
  };
 
 

@@ -6,10 +6,10 @@ var https = require('https');
 var fs = require('fs');
 var path = require('path');
 
-var options = {
+/*var options = {
     key: fs.readFileSync('privkey.pem'),
     cert: fs.readFileSync('fullchain.pem')
- };
+ };*/
 
 
 // Inicializar variables

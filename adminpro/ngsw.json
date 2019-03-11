@@ -9,11 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-<<<<<<< HEAD
-        "/main.689c13766450e8abab7c.js",
-=======
-        "/main.41b7c86873e243e28053.js",
->>>>>>> master
+        "/main.bc410da5ff7cef5b9194.js",
         "/polyfills.2a57c932e506a627c5ed.js",
         "/runtime.a66f828dca56eeb90e02.js",
         "/scripts.1bce3fe298008bdf7ba1.js",
@@ -8037,13 +8033,8 @@
     "/assets/scss/widgets/weather-widget.scss": "d4de0d10d5cd6bc0a8fadda6a1180b69d6636d07",
     "/assets/scss/widgets/widgets.scss": "e822fdea9500d54bfbcd0f8ca622fc803f66c3a2",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-<<<<<<< HEAD
-    "/index.html": "01177d65083ad118fed1ceeee041b65fc8b8323c",
-    "/main.689c13766450e8abab7c.js": "c9ff388b050245097a276e11b990f5c627b5f9a2",
-=======
-    "/index.html": "b2d774b09c3c080528f942be583078d8052b6e23",
-    "/main.41b7c86873e243e28053.js": "6a6e9947c1e13e6439c57c207d9491b5537c35fb",
->>>>>>> master
+    "/index.html": "3c89aa8a0bb574bf2bae783ed0fba370db828dda",
+    "/main.bc410da5ff7cef5b9194.js": "2bfc52996a2d5543f5292ba1e0c068c265521d1e",
     "/polyfills.2a57c932e506a627c5ed.js": "67c178d32448e93e042d10d2b753240d28d2dbf2",
     "/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
     "/scripts.1bce3fe298008bdf7ba1.js": "5915f060b77aaccfc0b6a496148a0ccf5dad2153",

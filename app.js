@@ -2,14 +2,14 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var https = require('https');
+/* var https = require('https');
 var fs = require('fs');
 var path = require('path');
 
 var options = {
     key: fs.readFileSync('privkey.pem'),
     cert: fs.readFileSync('fullchain.pem')
- };
+ }; */
 
 
 // Inicializar variables
